@@ -11,6 +11,17 @@ To install, download or clone the repo, then:
 `npm install`
 `truffle compile`
 
+## Contracts
+  Network: Rinkeby
+  flightSuretyApp: 0xeBfb14745000932D860D8E905c20292B12244B5B
+  flightSuretyData: 0x51950BDfD78f8c37042eAB1fadaCFa7b0007E937
+  ![deployedcontracts](https://user-images.githubusercontent.com/54293203/135788197-153139c1-4c52-475e-b2cb-26aeb700261f.png)
+
+
+## Test results 
+
+  ![test](https://user-images.githubusercontent.com/54293203/135788220-fa2768f1-6762-4e1d-b833-bc704001647e.png)
+
 ## Develop Client
 
 To run truffle tests:
@@ -23,9 +34,13 @@ To use the dapp:
 `truffle migrate`
 `npm run dapp`
 
+![frontend](https://user-images.githubusercontent.com/54293203/135788261-62dcd0dd-dc58-4836-b3e8-e1f4045d34d8.png)
+
+
 To view dapp:
 
 `http://localhost:8000`
+
 
 ## Develop Server
 
@@ -39,14 +54,11 @@ To build dapp for prod:
 
 Deploy the contents of the ./dapp folder
 
+## Versions
+`node - v14.17.3`
+`truffle - v5.4.2`
+`web3 - v1.4.0` 
+`solidity - 0.4.25` 
 
-## Resources
 
-* [How does Ethereum work anyway?](https://medium.com/@preethikasireddy/how-does-ethereum-work-anyway-22d1df506369)
-* [BIP39 Mnemonic Generator](https://iancoleman.io/bip39/)
-* [Truffle Framework](http://truffleframework.com/)
-* [Ganache Local Blockchain](http://truffleframework.com/ganache/)
-* [Remix Solidity IDE](https://remix.ethereum.org/)
-* [Solidity Language Reference](http://solidity.readthedocs.io/en/v0.4.24/)
-* [Ethereum Blockchain Explorer](https://etherscan.io/)
-* [Web3Js Reference](https://github.com/ethereum/wiki/wiki/JavaScript-API)
+
