@@ -138,6 +138,19 @@ contract FlightSuretyData {
         return authorizedCallers[caller];
     }
 
+     function isAirline (
+                            address airline
+                        )
+                        external
+                        view
+                        returns (bool) {
+        if (airlines[airline].airlineAddress == airline) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     /********************************************************************************************/
     /*                                     SMART CONTRACT FUNCTIONS                             */
     /********************************************************************************************/
